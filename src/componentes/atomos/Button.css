@@ -1,0 +1,15 @@
+button {
+    width: 10%;
+    height: 50px;
+    border-radius: 10px;
+    display: block; /* Asegura que el botón ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centra horizontalmente el botón */
+    margin-top: 20px;
+    background-color: rgb(83, 209, 83)
+    
+}
+
+#but {
+    display: flex;
+    justify-content: center;
+}

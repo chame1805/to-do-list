@@ -1,0 +1,49 @@
+/* Asegúrate de que los estilos sean específicos para SectionLogin */
+.section-login {
+    position: relative;
+    z-index: 1;
+    background: transparent; /* Hacer el fondo transparente */
+}
+
+.section-login input[type="text"] {
+    position: relative;
+    z-index: 2;
+    background-color: white; /* Fondo blanco para el input */
+    color: black; /* Color del texto */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 10px); /* Ajusta el ancho, considerando el padding y el borde */
+    box-sizing: border-box; /* Asegúrate de que el padding y el borde se incluyan en el tamaño total */
+}
+
+.section-login .task {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.section-login .task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.section-login .complete-button {
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.section-login p{
+    text-align: center;
+}

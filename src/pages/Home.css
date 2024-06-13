@@ -1,0 +1,10 @@
+#car{
+    width: 80%;
+    height: 900px;
+    border: 2px black solid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px;
+    background-image: url("./2.jpg");
+    border-radius: 100px;
+}
